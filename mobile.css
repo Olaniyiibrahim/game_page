@@ -1,0 +1,187 @@
+@media (max-width:967px){
+    nav ul{
+        display: none;
+        position: absolute;
+        background-color: #00000099;
+        width: 100%;
+        margin-top: 30px;
+        z-index: 999;
+        padding: 15px;
+    }
+    .first_box {
+        width: 100%;
+        text-align: center;
+        justify-content:center;
+        margin: auto;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr );
+        padding: 10px;
+    }
+    .main_head {
+        display: block;
+        justify-content: center;
+        height: 100%;
+    }
+    .main_head .main_text img {
+        position: absolute;
+        top: 0;
+        margin-left: 0;
+    }
+    #feature {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        margin-top: 100px ;
+        padding: 5px;
+    }
+    .box_word {
+        width: 100%;
+    }
+    #game {
+        padding-top: 70px;
+        width:100%;
+        margin:auto;
+        
+    }
+    .div_dublin {
+        background-image: url("image/YrRsSKzLCwFiDHm4iDVOdb2ko.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+    .detail_box {
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1,300px);
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .two_image{
+        margin: auto;
+        width: 100%;
+    }
+    form {
+        margin-top: 35px;
+        /* margin: auto; */
+    }
+    #Products {
+        width: 100%;
+        margin: auto;   
+    }
+    #Products .product_box {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    #Products .ser_product {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        padding: auto;
+    }
+    .sol_img img {
+        width: 100%;
+        margin: auto;
+    }
+    #Products .product_box h3{
+        font-size: 35px;
+        gap: 10px;
+    }
+    .sub_input{
+        margin-bottom: 30px;
+    }
+    .subscribe{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .box_head {
+        width: 100%;
+    }
+    #game .sol {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .great_sol {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .medium {
+        display: grid;
+        grid-template-columns: repeat(2,1fr );
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .bar{
+        display: block;
+    }
+    .docum {
+        margin: auto;
+        gap: 30px;
+    }
+    .doc_file {
+        display: block;
+        margin-bottom: 10px;
+        gap: 10px;
+        margin:  auto;
+        width: 100%;
+    }
+    .doc {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .inputer {
+        background-color: aliceblue;
+        height: 70px;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .rate_form {
+        display: none;
+    }
+    .btn_us {
+        margin:auto ;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .norms_product{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    footer{
+        margin: auto;
+    }
+}
+
+@media (max-width:560px){
+    .medium {
+        display: grid;
+        grid-template-columns: repeat(1,1fr );
+        /* margin: auto; */
+        align-items: center;
+        width: 100%;
+    }
+}
